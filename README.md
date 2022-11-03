@@ -11,8 +11,9 @@
 # Future Features & Updates
 *
     <ul>
-        Finish media queries to stack images and text content: min 750px;
-        Convert to full stack application with MVVM architecture
+       <li> Finish media queries to stack images and text content: min 750px;</li>
+       <li> Convert to full stack application with MVVM architecture</li>
+       
             <ul>
                 <li>Use c# for backend</li>
                 <li>Use SQL for DB</li>
