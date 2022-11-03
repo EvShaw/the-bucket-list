@@ -8,9 +8,10 @@
     
     </p>
 
-# Future Features
+# Future Features & Updates
 *
     <ul>
+        Finish media queries to stack images and text content: min 750px;
         Convert to full stack application with MVVM architecture
             <ul>
                 <li>Use c# for backend</li>
