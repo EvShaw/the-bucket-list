@@ -1,5 +1,4 @@
 function Location(props) {
-    console.log(props)
     return (
         <section className="location--container">
 
@@ -20,7 +19,12 @@ function Location(props) {
 
                 <section>
                     <h2 className="title">{props.title}</h2>
-                    <span className="location--dateRange">{props.date[0]}, {props.date[1]}</span>
+
+                    {/* conditional for multi inputs */}
+                    {props.date.length > 1 && <span className="location--dateRange">{props.date[0]}, {props.date[1]}</span>}
+
+                    {props.date.length <= 1 && <span className="location--dateRange">{props.date[0]}</span>}
+                    
                     <p className="location--description">
                         {props.description}
                     </p>
